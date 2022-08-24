@@ -24,7 +24,7 @@ store.forEach((item, index) => {
   addToCart.setAttribute("class", "btn btn-warning btn-sm m-4");
     addToCart.textContent = "Add to Cart";
     
-    addToCart.addEventListener("click",clickEvent)
+  
 
   imageContainer.appendChild(h5);
   imageContainer.appendChild(p);
@@ -33,6 +33,3 @@ store.forEach((item, index) => {
   itemList.appendChild(imageContainer);
 });
 
-function clickEvent(e) {
-    document.createElement
-}
